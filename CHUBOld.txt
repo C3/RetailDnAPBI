@@ -1,0 +1,200 @@
+@*@section Breadcrumbs{
+        <ol class="breadcrumb navbar-breadcrumb">
+            <li>Dashboard</li>
+        </ol>
+    }*@
+
+
+
+<div class="side-body padding-top">
+    @Html.PowerBIAccessToken()
+    <br />
+       <div style="text-align:center; background-color:yellow; border-radius:15px"><h3>Campaign HUB</h3></div>              
+     <br />
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-body-header divbgnew">
+                <h3 style="text-align:center">Campaign Options</h3>
+                <div class="control-group">
+                    <label class="control-label" for="select1">Type</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">All Cust</option>
+                            <option value="2">Targeted Cust</option>
+                            <option value="3">Targeted Product</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="text1">Brand</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">Cotton On</option>
+                            <option value="2">Contton On Body</option>
+                            <option value="3">Supre</option>
+                            <option value="4">Typo</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="text1">Chanel</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">EDM</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="text1">Custom Options</label>
+                    
+                    <div class="controls">      
+                        <input type="text" id="inputCustomOpt">                  
+                        <select id="cityname" class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="1">Option 1</option>
+                        </select>
+                        
+                        </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-body-header divbgnew">
+                <h4 style="text-align:center">Products</h4>
+                <div class="control-group">
+                    <label class="control-label" for="select1">Product Gender</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">Men</option>
+                            <option value="2">Women</option>
+                        </select>
+
+
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="text1">Product Category</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">Dresses & Jumpsuits</option>
+                            <option value="2">Knitwear & Jumpers</option>
+                            <option value="3">Tops</option>
+                        </select>
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-body-header divbgnew">
+                <h4 style="text-align:center">Customers</h4>
+                <div class="control-group">
+                    <label class="control-label" for="select1">Customer Location 1</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">Victoria</option>
+                            <option value="2">NSW</option>
+                            <option value="3">QLD</option>
+                        </select>
+
+
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="text1">Customer Location 2</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">Victoria</option>
+                            <option value="2">NSW</option>
+                            <option value="3">QLD</option>
+
+
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="text1">Customer Active</label>
+
+                    <div class="controls">
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">Dormant</option>
+                            <option value="2">Inactive</option>
+                            <option value="3">Active</option>
+
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label" for="text1">Customer Segment</label>
+
+                    <div class="controls">                     
+                        <select class="md-input req" data-val="true" data-val-number="The field AssessmentUnitId must be a number." data-val-required="The AssessmentUnitId field is required." id="ddlRender" name="AssessmentUnitId" required="required">
+                            <option value="">Select</option>
+                            <option value="1">High Value</option>
+                            <option value="2">Medium Value</option>
+                            <option value="3">Low Value</option>
+                        </select>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <div class="uk-text-right">
+            <button id="btnAddUser" type="submit" class="md-btn md-btn-primary md-btn-block md-btn-medium">Generate Optimised Campaign</button>
+        </div>
+
+
+    </div>
+
+<script>
+$(document).ready(function(){
+    $("#inputCustomOpt").keyup(function (event) {
+        if (event.keyCode == 13) {
+            debugger;
+            $(this).append($("<option></option>").val(3).html("Three"));
+        }
+    });
+});
+</script>
+
